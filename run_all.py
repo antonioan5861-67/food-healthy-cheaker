@@ -72,8 +72,8 @@ def start_api():
             "--port",
             "8000"
         ],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL
+        # stdout=subprocess.DEVNULL,
+        # stderr=subprocess.DEVNULL
     )
 
     # wait until API is ready

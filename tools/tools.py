@@ -1,14 +1,14 @@
 from core.state import STATE
 
-def cart_add(item: str, cost: int):
-    STATE["cart"].append({
-        "name": item,
-        "price": cost
-    })
-    return f"Added {item} for ${cost}"
+def food_output(food: str):
+    return STATE[food]
+    
+def fat_checker(food: str):
+    return STATE[food] + "the food can be bad for you if its more than a hundred because the food fat s hight."
 
-def cart_total():
-    return sum(entry["price"] for entry in STATE["cart"])
-
-def cart_list():
-    return STATE["cart"]
+def food_validator(food: str):
+    
+    if food in STATE:
+        return("this food is in the state")
+    else:
+        return ("error 404 not valid")

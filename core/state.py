@@ -1,3 +1,27 @@
 STATE = {
-    "cart": []
+    "food": {
+        "apple" : "Good source of fiber, helps digestion, gives steady energy. food fat = 4 fat very low" ,
+        "banana" : "High in potassium helps muscles work and well good quick energy snack. food fat = 5 very low",
+        "strawberrie" : "Full of vitamin C, helps immune system, and good for skin. food fat = 7 verylow",
+        "orange" : "Lots of vitamin C, helps your body fight sickness, Keeps you hydrated. food fat = 3 very low",
+        "blueberrie" : "Contains antioxidants and helps brain health and memory. food fat = 7 very low",
+        "carrot" : "Good for eye health, contains vitamin A. food fat = 3 very low",
+        "broccoli" : "Has vitamins C and k, helps bones and immune system. food fat = 6 very low",
+        "cucumber" : "Mostly water helps hydration. food fat. food fat = 3 very low",
+        "spinach" : "Contains iron and helps energy and blood health. food fat = 3 very low ",
+        "sweet potatoe" :"Gives long-lasting energy and high in vitamin A and fiber. food fat = 3 very low",
+        "egg" :"Helps build muscles, good source of protein. food fat = 60 Healthy fats + protein",
+        "chicken" :"Lean protein and helps muscle growth and repair. food fat = 35 Lean fat",
+        "fish" : "Has omega-3 fats and even helps brain and heart health. food fat = 145 Omega-3 healthy fats",
+        "bean" : "Protein + fiber keep you full longer. food fat = 15 low fat",
+        "nut" : "Healthy fats and protein, good for brain and energy. food fat = 140",
+        "yogurt" : "Has calcium Helps bones and digestion",
+        "cheese stick" : "Calcium and protein also good quick snack",
+        "popcorn" : "Whole grain snack. Better than chips if lightly salted",
+        "trail mix" : "Energy from nuts and dried fruit, easy snack for school or trips",
+        "peanut butter with apple slice" : "Keeps you full longer, not healthy when you put too much peanut butter" ,
+        "water" : "Helps your whole body work properly, important for focus and energy",
+        "milk" : "Calcium and protein and helps bones grow strong",
+        "smoothie" : "Easy way to get vitamins",
+    }
 }
